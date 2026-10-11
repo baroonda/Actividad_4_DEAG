@@ -1,0 +1,4 @@
+Modelo,HuggingFace ID,Accuracy,Precision,Recall,F1-Score,Latencia Promedio (ms)
+distilbert_sst2,distilbert-base-uncased-finetuned-sst-2-english,0.8733,0.8788,0.8733,0.8729,11.28
+twitter_roberta,cardiffnlp/twitter-roberta-base-sentiment-latest,0.7,0.89,0.7,0.7834,4.65
+multilingual_bert,nlptown/bert-base-multilingual-uncased-sentiment,0.7533,0.9207,0.7533,0.8275,4.08
