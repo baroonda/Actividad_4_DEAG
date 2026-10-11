@@ -57,12 +57,12 @@ Se selecciona formalmente **`distilbert-base-uncased-finetuned-sst-2-english`** 
 * **Deriva Textual**: Reseñas con jergas modernas no presentes en el corpus de preentrenamiento pueden erosionar la precisión a lo largo del tiempo.
 
 ## 6. Entorno de Ejecución
-* **Plataforma**: Google Colab (Acelerador: GPU CUDA).
+* **Plataforma**: Google Colab (Acelerador: GPU CUDA)
 * **Entorno**: Python 3.10+
 * **Instalación de Dependencias**:
 ```bash
 pip install -r requirements.txt
-
+```
 ## 7. Pasos de Ejecución
 
 ### Opción A: Ejecución interactiva en Google Colab (Recomendada)
