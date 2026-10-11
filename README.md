@@ -62,3 +62,17 @@ Se selecciona formalmente **`distilbert-base-uncased-finetuned-sst-2-english`** 
 * **Instalación de Dependencias**:
 ```bash
 pip install -r requirements.txt
+
+## 7. Pasos de Ejecución
+
+### Opción A: Ejecución interactiva en Google Colab (Recomendada)
+1. Navega a la carpeta `notebooks/` y abre el archivo `actividad_4_prototipado.ipynb`.
+2. Haz clic en la insignia o enlace para abrirlo directamente en Google Colab con aceleración por GPU.
+3. Ejecuta las celdas de forma secuencial para inspeccionar la descarga de datos, inferencia y tabla final de métricas.
+
+### Opción B: Ejecución local por terminal
+```bash
+git clone <URL_DE_TU_REPOSITORIO>
+cd analisis-sentimientos-nlp
+pip install -r requirements.txt
+python src/inference_pipeline.py
