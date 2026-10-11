@@ -77,3 +77,17 @@ git clone <URL_DE_TU_REPOSITORIO>
 cd analisis-sentimientos-nlp
 pip install -r requirements.txt
 python src/inference_pipeline.py
+```
+## 8. Conclusiones
+
+En otros módulos se ha visto la utilidad del uso de modelos preentrenados. En esta actividad comprobamos y reforzamos lo que se ha venido trabajando para cuando no es necesario entrenar un modelo de cero y se puede aprovechar alguno ya entrenado para nuestros fines, si el caso de uso es similar, ahorrando tiempo, trabajo y recursos.
+Por otro lado, comenzar a trabajar en github me ayudó a aprender la forma en que puedo presentar y llevar mis proyectos de IA, o desarrollo, para una mejor y más rápida presentación de los mismos. En mi caso no habia trabajado previamente con GITHUB, y se me hace una alternativa viable no solamente para llevar y compartir proyectos, sino para llevar un mejor control de los mismos, particularmente en el versionado de proyectos de software.
+Enfocándome en el caso de uso seleccionado para esta Actividad, se puede decir los 3 puntos siguientes:
+
+Superioridad de Modelos Destilados: La experimentación demostró que un modelo más pesado no garantiza mayor precisión; DistilBERT SST-2 superó a arquitecturas con el doble y triple de parámetros tanto en F1-Score (0.8461) como en velocidad de inferencia (~8.5 ms).
+
+Viabilidad de Prototipado Rápido con Hugging Face: La integración coordinada del Hub (Models), canalizaciones unificadas (Pipelines) y gestión estructurada de datos (Datasets) permitió validar hipótesis de desempeño y trade-offs en minutos sobre aceleración por GPU.
+
+Criterio de Despliegue: El modelo seleccionado es completamente viable para implementaciones en producción con restricciones presupuestarias y de latencia, recomendando únicamente un filtro de revisión manual en umbrales de baja confianza para mitigar casos de ambigüedad.
+
+
