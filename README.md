@@ -27,8 +27,9 @@
 ## 4. Reporte Técnico Comparativo
 
 ### Tabla Comparativa de Modelos
+
 | Modelo | Hugging Face ID | Tarea | Tamaño / Parámetros | Licencia | Accuracy | Precision | Recall | F1-Score | Latencia Promedio (GPU) | Recursos Computacionales |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **DistilBERT SST-2** | `distilbert-base-uncased-finetuned-sst-2-english` | `text-classification` | ~66M (~268 MB) | Apache 2.0 | **0.8467** | **0.8522** | **0.8467** | **0.8461** | **~8.5 ms** | Muy bajo (ideal para inferencia masiva/CPU) |
 | **Twitter RoBERTa** | `cardiffnlp/twitter-roberta-base-sentiment-latest` | `text-classification` | ~125M (~500 MB) | MIT | 0.8133 | 0.8245 | 0.8133 | 0.8120 | ~14.8 ms | Medio |
 | **Multilingual BERT** | `nlptown/bert-base-multilingual-uncased-sentiment` | `text-classification` | ~178M (~669 MB) | Apache 2.0 | 0.7733 | 0.7912 | 0.7733 | 0.7705 | ~22.4 ms | Alto (huella de memoria pesada) |
